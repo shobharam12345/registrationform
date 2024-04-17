@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student register form</title>
+    <style type="text/css">
+      body{
+         font-size: 16px;
+         background: #f9f9f9;
+      }
+      h2{
+         text-align: center;
+         
+      }
+      form{
+         width: 300px;
+         background: #fff;
+         padding: 15px 40px 40px;
+         margin:  50px auto 0;
+      
+         border-radius: 5px;
+      }
+   
+
+      input, select{
+         border: 1px solid #ccc;
+         padding: 10px;
+         width: 100%;
+         box-sizing: border-box;
+         border-radius: 2px;
+      }
+      label{
+         display: block;
+         margin-bottom: 6px;
+      }
+      div{
+         padding-bottom:  12pcx;
+      }
+      .form-inline{
+         border: 1px solid #ccc;
+         border-radius:  2px;
+         padding: 8px 10px 4px;
+
+      }
+      .form-inline label,.form-inline input{
+         display: inline block;
+         width: auto;
+         padding-right: 15px; 
+      }
+      
+       input[type="submit"]{
+            font-size: 20px;
+            background: #4cbb17;
+            border-color: black;
+            box-shadow: 0 3px 0 grey;
+            color:white;
+            margin-top: 10px;
+         }
+    </style>
+</head>
+<body>
+    <h2>Registeration form</h2>
+    <form>
+        <div>
+           <label>candidate name</label>
+           <input type="text" name="">
+        </div>
+
+        <div>
+            <label>Email Id</label>
+            <input type="email" name="">
+         </div>
+
+         <div>
+            <label>Mobile number</label>
+            <input type="text" name="">
+         </div>
+
+         <div>
+            <label>course</label>
+            <select name="course">
+               <option>select course</option>
+                <option>ccc</option>
+                <option>o level</option>
+                <option>a level</option>
+                <option>dca</option>
+            </select>
+         </div>
+         <div>
+            <label>gender</label>
+            <div class="form-inline">
+                <label>
+                     <input type="radio" name="gender" value="male">male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female">female
+               </label>
+            </div>
+         </div>
+
+         <div>
+            <label>category</label>
+             <div class="form-inline">
+                <label>
+                     <input type="radio" name="checkbox" value="gen">Gen
+                </label>
+                <label>
+                    <input type="radio" name="checkbox" value="obc">OBC
+               </label>
+               <label>
+                  <input type="radio" name="checkbox" value="sc">SC
+               </label>
+               <label>
+                  <input type="radio" name="checkbox" value="st">ST
+               </label>
+            </div>
+         </div>
+
+         <div>
+            <input type="submit" name="" value="Register">
+         </div>
+    </form>
+    
+</body>
+</html>
